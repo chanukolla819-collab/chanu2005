@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanu Video Download</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Chanu Video Download</h1>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="https://via.placeholder.com/600x400?text=Animated+Video+Image" alt="Animated Video" class="animated-image">
+            <p>ඔබේ ප්‍රියතම වීඩියෝ බාගත කර ගැනීමට හොඳම තැන!</p>
+            <a href="download.html" class="btn">වීඩියෝ බාගත කරන්න</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Chanu Video Download. සියලු හිමිකම් ඇවිරිණි.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>වීඩියෝ බාගත කිරීම - Chanu Video Download</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>වීඩියෝ බාගත කිරීම</h1>
+        <a href="index.html" class="btn">මුල් පිටුව</a>
+    </header>
+    <main>
+        <section class="download-section">
+            <h2>වීඩියෝ URL එක ඇතුලත් කරන්න</h2>
+            <input type="text" id="videoUrl" placeholder="වීඩියෝ URL එක මෙහි ඇතුලත් කරන්න" class="url-input">
+            <label for="quality">බාගත ගුණාත්මකභාවය තෝරන්න:</label>
+            <select id="quality">
+                <option value="144p">144p</option>
+                <option value="240p">240p</option>
+                <option value="360p">360p</option>
+                <option value="480p">480p</option>
+                <option value="720p">720p</option>
+                <option value="1080p">1080p</option>
+            </select>
+            <button onclick="downloadVideo()" class="btn">බාගත කරන්න</button>
+            <p id="status" class="status"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Chanu Video Download. සියලු හිමිකම් ඇවිරිණි.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
